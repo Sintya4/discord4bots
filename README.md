@@ -1,12 +1,9 @@
 # discord4bots.js
 <a href="https://skybotlistpr.glitch.me/dc" target="_blank"><img src="https://img.devsforum.net/tr/img/h1Z2X3.png" alt="Join our discord" width="256"></a><br>
 
-## Installation
-*If you have trouble with the installation, please feel free to visit our [discord](https://vcodes.xyz/dc) address.*
-- `npm i vcodes.js`
 
 ```js
-const vCodes = require("vcodes.js");
+const vCodes = require("discord4bots.js");
 const dbl = new vCodes("TOKEN-HERE", client);
 
 client.on("ready", async () => {
