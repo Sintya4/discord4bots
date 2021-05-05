@@ -1,0 +1,31 @@
+{
+  "name": "Discord4Bots",
+  "version": "0.0.1-alpha",
+  "description": "A official Discord4Bots api.",
+  "main": "Discord4Bots.js",
+  "scripts": {
+    "test": "!vote"
+  },
+  "repository": {
+    "type": "git",
+    "url": "x"
+  },
+  "keywords": [
+    "bot",
+    "list",
+    "discord",
+    "dbl",
+    "vcodes",
+    "api",
+    "bots",
+    "vote",
+    "check",
+    "vote",
+    "control",
+    "force",
+    "vote"
+  ],
+  "author": "Claudette",
+  "license": "MIT",
+  "dependencies": {}
+}
