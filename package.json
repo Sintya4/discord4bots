@@ -2,7 +2,7 @@
   "name": "Discord4Bots",
   "version": "0.0.1-alpha",
   "description": "A official Discord4Bots api.",
-  "main": "Discord4Bots.js",
+  "main": "discord4bots.js",
   "scripts": {
     "test": "!vote"
   },
