@@ -3,8 +3,8 @@
 
 
 ```js
-const vCodes = require("discord4bots.js");
-const dbl = new vCodes("TOKEN-HERE", client);
+const Discord4Bots = require("discord4bots.js");
+const dbl = new Discord4Bots("TOKEN", client);
 
 client.on("ready", async () => {
   dbl.serverCount();
