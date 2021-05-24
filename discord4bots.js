@@ -11,6 +11,7 @@ module.exports = class VOID {
         method: 'POST',
         headers: { 
           'serverCount': this.client.guilds.cache.size,
+          'avatarURL':this.client.user.avatarURL(),
           'Content-Type': 'application/json', 
           'Authorization': this.token
         },
