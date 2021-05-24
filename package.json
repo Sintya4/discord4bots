@@ -1,5 +1,5 @@
 {
-  "name": "Discord4Bots",
+  "name": "discord4bots",
   "version": "0.0.1-alpha",
   "description": "A official Discord4Bots api.",
   "main": "discord4bots.js",
@@ -15,7 +15,7 @@
     "list",
     "discord",
     "dbl",
-    "vcodes",
+    "discord4bots",
     "api",
     "bots",
     "vote",
@@ -25,7 +25,7 @@
     "force",
     "vote"
   ],
-  "author": "Claudette",
+  "author": "Sintya",
   "license": "MIT",
   "dependencies": {}
 }
