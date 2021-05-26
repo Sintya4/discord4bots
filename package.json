@@ -1,6 +1,6 @@
 {
   "name": "discord4bots",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "description": "A official Discord4Bots api.",
   "main": "discord4bots.js",
   "scripts": {
