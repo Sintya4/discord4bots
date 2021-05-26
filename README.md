@@ -1,5 +1,6 @@
 # discord4bots.js
 <a href="https://skybotlistpr.glitch.me/dc" target="_blank"><img src="https://img.devsforum.net/tr/img/h1Z2X3.png" alt="Join our discord" width="256"></a><br>
+<a href="https://nodei.co/npm/discord4bots/"><img src="https://nodei.co/npm/discord4bots.png?downloads=true&downloadRank=true&stars=true"></a> 
 
 
 ```js
