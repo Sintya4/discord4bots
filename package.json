@@ -8,8 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "x"
+    "url": "https://github.com/Sintya4/discord4bots.git"
   },
+    "bugs": {
+    "url": "https://github.com/Sintya4/discord4bots/issues"
+  },
+  "homepage": "https://github.com/Sintya4/discord4bots#readme",
   "keywords": [
     "bot",
     "list",
