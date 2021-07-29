@@ -5,9 +5,8 @@ module.exports = class VOID {
     this['client'] = client;
     return this;
   }
-
   serverCount(message) {
-  fetch(`https://discord4bots.tk/api/bots/stats`, {
+  fetch(`https://discord4bots.ddns.net/api/bots/stats`, {
         method: 'POST',
         headers: { 
           'serverCount': this.client.guilds.cache.size,
@@ -20,14 +19,14 @@ module.exports = class VOID {
   }
   
   async search(id) {
-  return await fetch(`https://discord4bots.tk/api/bots/${id}`, {
+  return await fetch(`https://discord4bots.ddns.net/api/bots/${id}`, {
         method: 'GET'
     })
     .then(res => res.json()).then(json => json);
   }
   
   async hasVoted(id) {
-  return await fetch(`https://discord4bots.tk/api/bots/check/${id}`, {method: 'GET',headers: { 
+  return await fetch(`https://discord4bots.ddns.net/api/bots/check/${id}`, {method: 'GET',headers: { 
     'Content-Type': 'application/json', 'Authorization': this.token
   }
   }).then(res => res.json()).then(async json => json.voted);
